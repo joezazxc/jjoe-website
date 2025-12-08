@@ -1,14 +1,10 @@
-import Image from "next/image";
+import DeveloperActivity from '@/public/undraw_developer_activity.svg';
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <Image
-        src="/undraw_developer_activity.svg"
-        alt="Developer Activity"
-        width={300}
-        height={300}
-      />
+      <DeveloperActivity className="h-[200]" />
     </main>
   );
 }
